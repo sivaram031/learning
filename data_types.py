@@ -1,10 +1,21 @@
-st = {'ram',123}
-print(st)
-#print(dir(st))
+lt = [2,5,1,6]
+lt.sort(re)
 
-l1 = [123,456]
-l2 = ['siva','ram']
-l3 = ['natha']
-l1.append(l2)
-l2.extend(l3)
-print(l1)
+def num(*n):
+    print(n)
+
+num(1,23,4,5,6,7)
+
+class sample:
+
+    def __init__(self,name):
+        self.name = name
+
+
+obj =sample('sivaram')
+print(obj.name)
+
+
+select tbale name
+
+where name ='sam'
